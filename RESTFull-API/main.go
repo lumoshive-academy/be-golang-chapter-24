@@ -1,7 +1,7 @@
 package main
 
 import (
-	"be-golang-chapter-24/router"
+	"be-golang-chapter-24/RESTFull-API/router"
 	"log"
 
 	"net/http"
