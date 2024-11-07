@@ -1,0 +1,74 @@
+// request body
+{
+    "customerName": "John Doe",
+    "customerPhone": "081234567890",
+    "shippingAddress": {
+        "street": "Jl. Kebon Jeruk Raya No. 15",
+        "city": "Jakarta",
+        "postalCode": "11530",
+        "country": "Indonesia"
+    },
+    "orderItems": [
+        {
+            "bookId": "001",
+            "quantity": 2
+        },
+        {
+            "bookId": "002",
+            "quantity": 1
+        }
+    ],
+    "paymentMethod": "credit_card",
+    "totalAmount": 150000,
+    "discount": 10,
+    "orderDate": "2024-11-07T10:00:00Z"
+}
+
+// response body oke
+{
+    "status": "success",
+    "message": "Order placed successfully",
+    "data": {
+        "orderId": "ORD123",
+        "customerName": "John Doe",
+        "orderItems": [
+            {
+                "bookId": "001",
+                "bookName": "Belajar HTML",
+                "quantity": 2,
+                "price": 50000,
+                "subtotal": 100000
+            },
+            {
+                "bookId": "002",
+                "bookName": "Belajar CSS",
+                "quantity": 1,
+                "price": 50000,
+                "subtotal": 50000
+            }
+        ],
+        "totalAmount": 150000,
+        "discount": 10,
+        "finalAmount": 135000,
+        "orderDate": "2024-11-07T10:00:00Z",
+        "status": "Processing"
+    }
+}
+
+
+// response bad 
+{
+    "status": "error",
+    "message": "Invalid request data",
+    "errors": [
+        {
+            "field": "customerPhone",
+            "error": "Phone number is required"
+        },
+        {
+            "field": "orderItems",
+            "error": "Order items cannot be empty"
+        }
+    ]
+}
+

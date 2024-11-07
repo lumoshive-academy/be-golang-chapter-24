@@ -1,0 +1,42 @@
+// body request
+{
+    "orderId": "ORD123",
+    "bookId": "001",
+    "customerName": "John Doe",
+    "rating": 4.5,
+    "reviewText": "Buku yang sangat informatif dan mudah dipahami.",
+    "reviewDate": "2024-11-07T15:30:00Z"
+}
+
+
+// response oke
+{
+    "status": "success",
+    "message": "Review submitted successfully",
+    "data": {
+        "reviewId": "REV789",
+        "orderId": "ORD123",
+        "bookId": "001",
+        "customerName": "John Doe",
+        "rating": 4.5,
+        "reviewText": "Buku yang sangat informatif dan mudah dipahami.",
+        "reviewDate": "2024-11-07T15:30:00Z"
+    }
+}
+
+
+/// response bad 
+{
+    "status": "error",
+    "message": "Invalid request data",
+    "errors": [
+        {
+            "field": "rating",
+            "error": "Rating must be between 1 and 5"
+        },
+        {
+            "field": "reviewText",
+            "error": "Review text cannot be empty"
+        }
+    ]
+}

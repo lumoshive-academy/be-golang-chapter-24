@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Buku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Edit Buku</h1>
+    </header>
+
+    <section id="edit-book">
+        <form action="#">
+            <label for="bookName">Nama Buku:</label>
+            <input type="text" id="bookName" name="bookName" value="Nama Buku Lama" required>
+
+            <label for="bookType">Jenis Buku:</label>
+            <input type="text" id="bookType" name="bookType" value="Jenis Buku Lama" required>
+
+            <label for="author">Pengarang:</label>
+            <input type="text" id="author" name="author" value="Nama Pengarang" required>
+
+            <label for="price">Harga:</label>
+            <input type="number" id="price" name="price" value="100000" required>
+
+            <label for="discount">Diskon (%):</label>
+            <input type="number" id="discount" name="discount" value="10">
+
+            <label for="cover">Foto Cover Buku:</label>
+            <input type="file" id="cover" name="cover" accept="image/*">
+
+            <label for="file">File Buku (PDF):</label>
+            <input type="file" id="file" name="file" accept="application/pdf">
+
+            <button type="submit">Simpan Perubahan</button>
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Buku</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tambah Buku Baru</h1>
+    </header>
+
+    <section id="add-book">
+        <form action="#">
+            <label for="bookName">Nama Buku:</label>
+            <input type="text" id="bookName" name="bookName" required>
+
+            <label for="bookType">Jenis Buku:</label>
+            <input type="text" id="bookType" name="bookType" required>
+
+            <label for="author">Pengarang:</label>
+            <input type="text" id="author" name="author" required>
+
+            <label for="price">Harga:</label>
+            <input type="number" id="price" name="price" required>
+
+            <label for="discount">Diskon (%):</label>
+            <input type="number" id="discount" name="discount">
+
+            <label for="cover">Foto Cover Buku:</label>
+            <input type="file" id="cover" name="cover" accept="image/*" required>
+
+            <label for="file">File Buku (PDF):</label>
+            <input type="file" id="file" name="file" accept="application/pdf" required>
+
+            <button type="submit">Simpan Buku</button>
+        </form>
+    </section>
+</body>
+</html>

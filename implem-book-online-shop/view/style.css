@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+header nav a:hover {
+    color: #ddd;
+}
+
+#dashboard {
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#add-book, #edit-book, #view-book, #order-list, #discount {
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+img {
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+#logout {
+    padding: 20px;
+    text-align: center;
+}
+
+.logout-buttons {
+    margin-top: 20px;
+}
+
+.logout-buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn-confirm {
+    background-color: #d9534f;
+}
+
+.btn-cancel {
+    background-color: #5bc0de;
+}
+
+.btn-confirm:hover {
+    background-color: #c9302c;
+}
+
+.btn-cancel:hover {
+    background-color: #31b0d5;
+}
