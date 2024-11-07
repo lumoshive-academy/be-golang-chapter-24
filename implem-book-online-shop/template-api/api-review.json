@@ -3,7 +3,7 @@
     "orderId": "ORD123",
     "bookId": "001",
     "customerName": "John Doe",
-    "rating": 4.5,
+    "rating": 4,
     "reviewText": "Buku yang sangat informatif dan mudah dipahami.",
     "reviewDate": "2024-11-07T15:30:00Z"
 }
@@ -18,7 +18,7 @@
         "orderId": "ORD123",
         "bookId": "001",
         "customerName": "John Doe",
-        "rating": 4.5,
+        "rating": 4,
         "reviewText": "Buku yang sangat informatif dan mudah dipahami.",
         "reviewDate": "2024-11-07T15:30:00Z"
     }
